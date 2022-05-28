@@ -12,6 +12,7 @@ const Detail = (props) => {
 "Age":"23",
 "Course":"HTML",
 "Batch":"FEB",
+"Branch":"CSE",
 "id":"1"
 
 },
