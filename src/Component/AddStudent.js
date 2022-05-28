@@ -14,7 +14,7 @@ const[Age,setAge]=useState("")
 const[Course,setCourse]=useState("")
 
 
-const[Batch,setBatch]=useState("")
+const[Branch,setBranch]=useState("")
 
 const[students,setStudents]=useContext(store)
 
@@ -36,14 +36,14 @@ setCourse(e.target.value)
 }
 const ChangeHandler4=(e)=>
 {
-setBatch(e.target.value)
+setBranch(e.target.value)
 
 }
 
 const SubmitHandler=()=>{
 
 
-setStudents([...students,{Name:Name,Age:Age,Course:Course,Batch:Batch,id:new Date().getTime().toString()}])
+setStudents([...students,{Name:Name,Age:Age,Course:Course,Branch:Branch,id:new Date().getTime().toString()}])
 
 
 }
@@ -62,8 +62,8 @@ setStudents([...students,{Name:Name,Age:Age,Course:Course,Batch:Batch,id:new Dat
 </div>
 
 <div>
-<label>Batch:</label>
-<input id="batch" type="text" name='batch' value={Batch} onChange={ChangeHandler4} /></div>
+<label>Branch:</label>
+<input id="branch" type="text" name='branch' value={Branch} onChange={ChangeHandler4} /></div>
 
 
 
