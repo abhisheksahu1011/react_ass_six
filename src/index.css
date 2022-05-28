@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: 0;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+
+/* APP PAGE CSS */
+
+.page_one{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-container{
+    background: linear-gradient(
+        pink,
+        rgb(0, 217, 255)
+    );
+    height: 100vh;
+}
+
+
+/* nav bar css */
+
+.NavBar_ctn{
+    background-color: brown;
+    height: 50px; 
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    
+}
+.nav-link
+{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+/* Home Page css */
+
+.page{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* STUDET PAGE CSS */
+
+.student_nav_ctn{
+display: flex;
+justify-content: space-between; 
+margin: 50px;  
+
+}
+
+.Contact_detail_text_ctn, .add_student_button{
+    height: 20px;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+    background-color: gray;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.table_ctn{
+   border: 1px solid white;
+   margin: auto;
+   height: auto;
+   width: 97%;
+   background-color: rgba(245, 245, 245, 0.801);
+}
+table,tr,th{
+margin: auto;
+padding: 5px 60px;
+font-size: 20px;  
+}
+
+
+/* ADD STUDENT CSS */
+
+.Add_details_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px 50px;
+    margin-top:100px ;
+} 
+
+ label{
+     font-size: 25px;
+ }
+ input{
+     font-size: 25px;
+     margin-left: 20px;
+     border-radius: 15px;
+     border: transparent;
+     padding: 2px;
+ }
+ .button_ctn{
+     display:flex;
+     justify-content: space-evenly;
+     margin: 50px 20px;
+ }
+
+.button,.buttons{
+    font-size: 25px;
+    text-decoration: none;
+    height: 30px;
+    width: 100px;
+    padding: 10PX 10px;
+    background-color: gray;
+    border-radius : 10px ;
+    color: white;
+    font-weight: bold;
+}
+.buttons{
+    background-color: white;
+    color: black;
+}
